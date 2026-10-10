@@ -1,3 +1,14 @@
 plugins {
-    id 'com.android.application' version '8.6.1' apply false
+    id 'com.android.application'
+}
+android {
+    namespace 'ru.compshop.demo'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'ru.compshop.demo'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
 }
